@@ -1,0 +1,42 @@
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border: 20px red;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+    vertical-align: text-bottom;
+}
+
+.flex-item{
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    vertical-align: text-bottom;
+}
